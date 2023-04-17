@@ -12,21 +12,21 @@
         <div class="navBar">
             <ul>
                 <li class="brand">
-                    <img src="/assets/images/cubo-x-logo.png">
+                    <a href="/"><img src="/assets/images/cubo-x-logo.png"></a>
                 </li>
                 <li class="item">
-                    Feed
+                    <a href="/?op=f">Feed</a>
                 </li>
                 <li class="item">
-                    Nossos Dados
+                    <a href="/our-data">Nossos Dados</a>
                 </li>
                 <li class="item">
-                    Sobre
+                    <a href="/about">Sobre</a>
                 </li>
                 <li class="item">
-                    Contato
+                    <a href="/contact">Contato</a>
                 </li>
-                <li class="account"></li>
+                <li class="account" title="User not logged"></li>
             </ul>
         </div>
         <div class="text-top">
@@ -40,53 +40,53 @@
                 <li class="title-sections">
                     Uma breve história do Universo
                 </li>
-                <li class="title-sections">
+                <li class="arrow-sections">
                     <img src="/assets/images/arrow.png">
                 </li>
-                <li class="item-sections">
+                <li class="item-sections" id="sec1">
                     <a href="#big-bang">
                         Big Bang
                     </a>
                     <div class="indicator"></div>
                 </li>
-                <li class="item-sections">
+                <li class="item-sections" id="sec2">
                     <a href="#milhoes-de-estrelas">
                         Milhões de Estrelas
                     </a>
                     <div class="indicator"></div>
                 </li>
-                <li class="item-sections">
+                <li class="item-sections" id="sec3">
                     <a href="#planeta-terra">
                         Planeta Terra
                     </a>
                     <div class="indicator"></div>
                 </li>
-                <li class="item-sections">
+                <li class="item-sections" id="sec4">
                     <a href="#vida-no-universo">
                         Vida no Universo
                     </a>
                     <div class="indicator"></div>
                 </li>
-                <li class="title-sections">
+                <li class="arrow-sections">
                     <img src="/assets/images/arrow.png">
                 </li>
-                <li class="item-sections">
+                <li class="title-sections">
                     <a href="#nosso-objetivo">
                         Nosso Objetivo
                     </a>
                     <div class="indicator"></div>
                 </li>
                 <li class="left">
-                    <button class="btn full">
+                    <a class="btn full" href="/restrict/sing-in">
                         Entre! Já vamos lançar!
-                    </button>
-                    <button class="btn">
+                    </a>
+                    <a class="btn" href="/restrict/sing-up">
                         Inicie uma nova jornada
-                    </button>
+                    </a>
                 </li>
             </ul>
         </div>
-        <div class="wrapperBlock">
+        <div class="wrapperBlock" id="sec1">
             <div class="titleSection" id="big-bang">
                 <img src="/assets/images/explode.png">
                 <h2>Big Bang - Como <p class="marker">tudo começou</p>
@@ -119,7 +119,7 @@
                 <h3>Mas o Big Bang só foi o começo...</h3>
             </div>
         </div>
-        <div class="wrapperBlock">
+        <div class="wrapperBlock" id="sec2">
             <div class="titleSection" id="milhoes-de-estrelas">
                 <img src="/assets/images/star.png">
                 <h2>Milhões de Estrelas - <p class="marker">O universo</p> que nos cerca
@@ -173,7 +173,7 @@
                 <h3>E a Terra? Onde ela está?</h3>
             </div>
         </div>
-        <div class="wrapperBlock">
+        <div class="wrapperBlock" id="sec3">
             <div class="titleSection" id="planeta-terra">
                 <img src="/assets/images/sistema-solar.png">
                 <h2>Planeta Terra - O nosso lar <p class="marker">no espasso</p>
@@ -237,7 +237,7 @@
                 <h3>Mas, nós estamos sozinhos?</h3>
             </div>
         </div>
-        <div class="wrapperBlock">
+        <div class="wrapperBlock" id="sec4">
             <div class="titleSection" id="vida-no-universo">
                 <img src="/assets/images/alien.png">
                 <h2>Vida no Universo - Será que estamos <p class="marker">sozinhos?</p>
@@ -267,7 +267,7 @@
                 </div>
             </div>
         </div>
-        <div class="objetivo">
+        <div class="objetivo" id="nosso-objetivo">
             <p> Nós da CuboX acreditamos que a exploração do universo é fundamental para o avanço da humanidade. Desde a
                 antiguidade, o ser humano olha para o céu e se questiona sobre o que existe além da Terra. Com os
                 avanços da ciência e tecnologia, estamos cada vez mais próximos de encontrar respostas para essas
@@ -276,7 +276,7 @@
                 nos rodeia. O universo é vasto e misterioso, e a possibilidade de encontrar outras formas de vida é
                 fascinante. Através da busca por novos conhecimentos, podemos entender melhor o nosso lugar no universo
                 e o papel que podemos desempenhar para o bem-estar do nosso planeta.</p>
-            <p> Por isso, na CubeX, incentivamos a pesquisa e a exploração do universo, para que possamos encontrar
+            <p> Por isso, na CuboX, incentivamos a pesquisa e a exploração do universo, para que possamos encontrar
                 novas respostas e nos inspirar a buscar ainda mais. Quem sabe você não será o próximo a fazer uma grande
                 descoberta? Acreditamos que todos têm algo a contribuir para essa jornada de descoberta e aprendizado, e
                 estamos ansiosos para compartilhar essa experiência com você.</p>
@@ -285,20 +285,20 @@
     <footer>
         <div class="content">
             <div class="top-content">
-                <div class="social">
-                    <a href="">
-                        <img src="/assets/images/instagram.png">
-                    </a>
-                    <a href="">
-                        <img src="/assets/images/twitter.png">
-                    </a>
-                    <a href="">
-                        <img src="/assets/images/facebook.png">
-                    </a>
-                </div>
                 <div class="title-footer">
                     <img src="/assets/images/cubo-x-logo.png">
                     <h4>CuboX - Uma nova geração de ciêntistas</h4>
+                </div>
+                <div class="social">
+                    <a href="https://instagram.com">
+                        <img src="/assets/images/instagram.png">
+                    </a>
+                    <a href="https://twitter.com">
+                        <img src="/assets/images/twitter.png">
+                    </a>
+                    <a href="https://facebook.com">
+                        <img src="/assets/images/facebook.png">
+                    </a>
                 </div>
             </div>
             <div class="bottom">
